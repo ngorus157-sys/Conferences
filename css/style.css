@@ -1,0 +1,14 @@
+.auth-wrap { min-height: 70vh; display: flex; justify-content: center; align-items: center; }
+.auth-box  { width: 100%; max-width: 400px; }
+
+
+.card:has(input[type="radio"]:checked) {
+    border: 2px solid #0d6efd !important;
+    box-shadow: 0 0 0 0.25rem rgba(13, 110, 253, 0.25);
+}
+
+
+.room-card img { transition: transform .25s ease; }
+.room-card:hover img { transform: scale(1.03); }
+.room-card { transition: box-shadow .25s ease; }
+.room-card:hover { box-shadow: 0 .5rem 1rem rgba(0,0,0,.12) !important; }
